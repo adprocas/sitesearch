@@ -2,6 +2,13 @@
 
 //rename this file to "config.php" and modify for your settings below
 
+error_reporting(0);
+//////////////////////////
+//COMMENT THE LINE ABOVE AND UNCOMMENT THE FOLLOWING TWO LINES FOR ERROR AND WARNING REPORTS
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
+//////////////////////////
+
 require_once('db_class.php');
 
 

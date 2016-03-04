@@ -15,7 +15,7 @@ class SiteSearchAdmin {
 	}
 
 	private function create_simple_dom() {
-		if(!isset($this->_simple_dom)) {
+		if(!isset($this->html)) {
 			$this->html = new simple_html_dom_extended();
 		}
 	}
